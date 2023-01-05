@@ -178,16 +178,24 @@ form button {
   }
   form {
     display: flex;
+    align-items: center;
   }
   form input {
     position: unset;
-    width: 238px;
+    width: 200px;
     height: 25px;
   }
   form button {
     position: unset;
-    width: 48px;
-    height: 27px;
+    width: 35px;
+    height: 28px;
+    border-radius: 2px;
+    margin-left: 5px;
+  }
+  form button img {
+    display: flex;
+    align-items: center;
+    height: 20px;
   }
   .more {
     margin-left: 25px;
