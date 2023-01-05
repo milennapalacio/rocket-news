@@ -153,22 +153,6 @@ form button {
   .desc span {
     font-size: 10px;
   }
-  /*.form span {
-    top: 390px;
-    left: -7px;
-  }
-  form input {
-    width: 238px;
-    height: 25px;
-    top: 410px;
-    left: -7px;
-  }
-  form button {
-    width: 48px;
-    height: 27px;
-    left: 222px;
-    top: 410px;
-  }*/
   .form {
     display: flex;
     flex-direction: column;
@@ -187,10 +171,12 @@ form button {
     height: 25px;
   }
   form button {
+    display: flex;
+    align-items: center;
     position: unset;
     width: 35px;
     height: 30px;
-    border-radius: 2px;
+    border-radius: 5px;
     margin-left: 5px;
   }
   form button img {
