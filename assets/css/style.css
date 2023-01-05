@@ -97,7 +97,7 @@ form button {
   cursor: pointer;
 }
 
-.more {
+.more a {
   display: flex;
   margin-left: 30px;
   position: absolute;
@@ -110,6 +110,7 @@ form button {
   font-size: 18px;
   line-height: 138.73%;
   color: #8257e5;
+  text-decoration: none;
 }
 .more img {
   margin-left: 5px;
@@ -188,17 +189,15 @@ form button {
   form button {
     position: unset;
     width: 35px;
-    height: 28px;
+    height: 30px;
     border-radius: 2px;
     margin-left: 5px;
   }
   form button img {
-    display: flex;
-    align-items: center;
     height: 20px;
   }
   .more {
-    margin-left: 25px;
+    margin-left: -7px;
     font-size: 16px;
   }
 }
