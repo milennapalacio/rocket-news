@@ -215,6 +215,7 @@ form button {
     display: flex;
     flex-direction: column;
     margin-left: -7px;
+    margin-top: 5px;
   }
   .form span {
     position: unset;
