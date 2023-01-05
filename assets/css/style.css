@@ -152,7 +152,7 @@ form button {
   .desc span {
     font-size: 10px;
   }
-  .form span {
+  /*.form span {
     top: 390px;
     left: -7px;
   }
@@ -167,6 +167,27 @@ form button {
     height: 27px;
     left: 222px;
     top: 410px;
+  }*/
+  .form {
+    display: flex;
+    flex-direction: column;
+    margin-left: -7px;
+  }
+  .form span {
+    position: unset;
+  }
+  form {
+    display: flex;
+  }
+  form input {
+    position: unset;
+    width: 238px;
+    height: 25px;
+  }
+  form button {
+    position: unset;
+    width: 48px;
+    height: 27px;
   }
   .more {
     margin-left: 25px;
